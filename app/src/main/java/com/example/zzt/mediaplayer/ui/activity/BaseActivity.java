@@ -26,7 +26,7 @@ public abstract class BaseActivity extends AppCompatActivity implements UiOprati
         Utils.setButtonOnClickListener(viewGrop, this);
         initView();
         initListener();
-        initData();
+         initData();
     }
     public<T> T findView(int id){
         T view = (T)findViewById(id);
